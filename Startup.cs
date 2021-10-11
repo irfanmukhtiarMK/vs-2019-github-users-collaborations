@@ -36,7 +36,8 @@ namespace vs_2019_github_users_collaborations
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, startup staging , see https://aka.ms/aspnetcore-hsts.
+                // The default HSTS value is 30 days. You may want to change this for production scenarios, startup staging , see
+                // changes in child branchhttps://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
