@@ -38,7 +38,8 @@ namespace vs_2019_github_users_collaborations
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, startup staging ,
                 // trying to implement git stash
-                // see https://aka.ms/aspnetcore-hsts.
+                // see
+                // for staging purpose, yeshttps://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
 
